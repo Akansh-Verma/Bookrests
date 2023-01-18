@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}Home{% endblock title %}
+
 {% block body %}
 <div class="container-fluid my-4">
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -28,5 +29,9 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+</div>
+<div>
+  Welcome {{ request.user }}
+  
 </div>
 {% endblock body %}
