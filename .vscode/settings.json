@@ -1,0 +1,7 @@
+{
+    "docify.programmingLanguage": "python",
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html"
+    }
+}
